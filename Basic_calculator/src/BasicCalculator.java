@@ -7,11 +7,11 @@ public class BasicCalculator {
         double numberOne=0,numberTwo=0,result=0;
         boolean isNumber;
         String operator,operatorNotation=null;
-        System.out.println("Please enter a number");
+        System.out.println("Please enter a number : ");
         numberOne = scanner.nextDouble();
-        System.out.println("Please enter the Second number");
+        System.out.println("Please enter the Second number : ");
         numberTwo =scanner.nextDouble();
-        System.out.println("Please enter a operator");
+        System.out.println("Please enter a operator : ");
         operator=scanner.next();
 
         switch(operator.trim()){
